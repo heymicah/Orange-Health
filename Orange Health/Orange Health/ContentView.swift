@@ -35,7 +35,7 @@ struct Exercise {
     var goal: Int // int
     var rest_time: Int // seconds
 
-    init(ex_name: String, targ_musc: String, sets: int, reps: Int, weight: Int, goal: Int, rest_time: Int) {
+    init(ex_name: String, targ_musc: String, sets: Int, reps: Int, weight: Int, goal: Int, rest_time: Int) {
         self.ex_name = ex_name;
         self.targ_musc = targ_musc;
         self.sets = sets;
@@ -45,3 +45,11 @@ struct Exercise {
         self.rest_time = rest_time;
     }
 }
+
+//let new_exercise = Exercise(ex_name: "Bench Press", targ_musc: "Pectoral", sets: 4, reps: 8, weight: 225, goal: 350, rest_time: 30)
+//
+//var routine = [new_exercise]
+//routines.append(routine)
+//
+//
+var routines = [[Exercise]]()

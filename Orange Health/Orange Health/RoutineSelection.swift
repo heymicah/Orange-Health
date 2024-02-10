@@ -14,8 +14,14 @@ struct RoutineSelection: View {
             VStack {
                 NavigationLink(destination: NewRoutine()){
                     Text("Create New Routine")
+                    .padding()
                 }
-                .padding()
+                if routines.count == 0{
+                    Text("No Saved Routines")
+                }
+                else{
+                    
+                }
             }
         // create an array that stores all the routines
     }

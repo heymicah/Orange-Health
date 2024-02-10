@@ -15,9 +15,13 @@ struct NewRoutine: View {
                     Text("Add Exercise")
                 }
                 .padding()
+                
         }
     }
 }
+
+var currentRoutine: [Exercise] = []
+
 
 #Preview {
     NewRoutine()

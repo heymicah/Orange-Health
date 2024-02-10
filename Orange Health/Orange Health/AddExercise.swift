@@ -7,65 +7,83 @@
 
 import SwiftUI
 
-struct Exercise {
-    var ex_name: String // string
-    var targ_musc: String // string
-    var sets: Int // int
-    var reps: Int // int
-    var weight: Int // int
-    var goal: Int // int
-    var rest_time: Int // seconds
-
-    init(ex_name: String, targ_musc: String, sets: Int, reps: Int, weight: Int, goal: Int, rest_time: Int) {
-        self.ex_name = ex_name;
-        self.targ_musc = targ_musc;
-        self.sets = sets;
-        self.reps = reps;
-        self.weight = weight;
-        self.goal = goal;
-        self.rest_time = rest_time;
-    }
-}
 
 struct AddExercise: View {
+
+    @State private var ex_name: String = ""
+
+    @State private var targ_musc: String = ""
+
+    @State private var sets: Int = 0
+
+    @State private var reps: Int = 0
+
+    @State private var weight: Int = 0
+
+    @State private var goal: Int = 0
+
+    @State private var rest_time: Int = 0
+
+
+
     var body: some View {
-        // create text fields to take in user input for each of the variables in the struct
-            VStack {
-                Text("Exercise Name: ")
-                var ex_name = readLine()
+
+        VStack {
+
+            TextField("Exercise Name", text: $ex_name)
+
+            TextField("Target Muscles", text: $targ_musc)
+
+            TextField("Number of Sets", value: $sets, formatter: NumberFormatter())
+
+            TextField("Number of Reps", value: $reps, formatter: NumberFormatter())
+
+            TextField("Weight", value: $weight, formatter: NumberFormatter())
+
+            TextField("Target Weight", value: $goal, formatter: NumberFormatter())
+
+            TextField("Rest Time", value: $rest_time, formatter: NumberFormatter())
+
+            let new_exercise = Exercise(ex_name: ex_name, targ_musc: targ_musc, sets: sets, reps: reps, weight: weight, goal: goal, rest_time: rest_time)
+
+            currentRoutine.append(new_exercise)
+
+
+
+            
+            NavigationLink(destination: NewRoutine()) {
                 
-                Text("Target Muscles: ")
-                var targ_musc = readLine()
 
-                Text("Number of Sets: ")
-                var sets = readLine()
+                Text("Save Exercise")
 
-                Text("Number of Reps: ")
-                var reps = readLine()
-
-                Text("Weight: ")
-                var weight = readLine()
-
-                Text("Target Weight: ")
-                var goal = readLine()
-
-                Text("Rest Time: ")
-                var rest_time = readLine()
-                
-                let Legs = Exercise(ex_name, targ_musc, sets, reps, weight, goal, rest_time)
-                
-                Text(Legs.ex_name)
-
-                NavigationLink(destination: NewRoutine()){
-                    // save exercise sends the user back to the reoutine creation page, where it will be displayed
-                    Text("Save Exercise")
-                }
-                .padding()
             }
+
+            .padding()
+            
+
         }
-        // append exercise objects to routine array
+        
+
     }
 
-#Preview {
-    AddExercise()
+}
+
+
+
+func saveWorkout(currentRoutine: [Exercise]) {
+    var currentRoutine = currentRoutine
+
+    routines.append(currentRoutine)
+
+    currentRoutine = []
+
+}
+
+
+struct AddExercise_Previews: PreviewProvider {
+    
+    static var previews: some View {
+        
+        AddExercise()
+    }
 }
