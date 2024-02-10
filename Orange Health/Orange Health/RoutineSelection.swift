@@ -7,16 +7,17 @@
 
 import SwiftUI
 
+
+
 struct RoutineSelection: View {
     var body: some View {
-        NavigationView{
             VStack {
                 NavigationLink(destination: NewRoutine()){
                     Text("Create New Routine")
                 }
                 .padding()
             }
-        }
+        // create an array that stores all the routines
     }
 }
 

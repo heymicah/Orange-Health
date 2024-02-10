@@ -9,7 +9,13 @@ import SwiftUI
 
 struct NewRoutine: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        // add text field for name of routine "workout" 1 or whatever
+            VStack {
+                NavigationLink(destination: AddExercise()){
+                    Text("Add Exercise")
+                }
+                .padding()
+        }
     }
 }
 

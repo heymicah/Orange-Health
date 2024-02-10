@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		4EE9F8D92B780502002838B3 /* RoutineSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE9F8D82B780502002838B3 /* RoutineSelection.swift */; };
 		4EE9F8DB2B78050E002838B3 /* NewRoutine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE9F8DA2B78050E002838B3 /* NewRoutine.swift */; };
+		4EE9F8DD2B7807FC002838B3 /* AddExercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE9F8DC2B7807FC002838B3 /* AddExercise.swift */; };
 		75E271082B78045D0039EC81 /* Orange_HealthApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E271072B78045D0039EC81 /* Orange_HealthApp.swift */; };
 		75E2710A2B78045D0039EC81 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E271092B78045D0039EC81 /* ContentView.swift */; };
 		75E2710C2B78045F0039EC81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75E2710B2B78045F0039EC81 /* Assets.xcassets */; };
@@ -38,6 +39,7 @@
 /* Begin PBXFileReference section */
 		4EE9F8D82B780502002838B3 /* RoutineSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutineSelection.swift; sourceTree = "<group>"; };
 		4EE9F8DA2B78050E002838B3 /* NewRoutine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewRoutine.swift; sourceTree = "<group>"; };
+		4EE9F8DC2B7807FC002838B3 /* AddExercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddExercise.swift; sourceTree = "<group>"; };
 		75E271042B78045D0039EC81 /* Orange Health.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Orange Health.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		75E271072B78045D0039EC81 /* Orange_HealthApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Orange_HealthApp.swift; sourceTree = "<group>"; };
 		75E271092B78045D0039EC81 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 				4EE9F8DA2B78050E002838B3 /* NewRoutine.swift */,
 				75E2710B2B78045F0039EC81 /* Assets.xcassets */,
 				75E2710D2B78045F0039EC81 /* Preview Content */,
+				4EE9F8DC2B7807FC002838B3 /* AddExercise.swift */,
 			);
 			path = "Orange Health";
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EE9F8DD2B7807FC002838B3 /* AddExercise.swift in Sources */,
 				4EE9F8D92B780502002838B3 /* RoutineSelection.swift in Sources */,
 				75E2710A2B78045D0039EC81 /* ContentView.swift in Sources */,
 				75E271082B78045D0039EC81 /* Orange_HealthApp.swift in Sources */,
