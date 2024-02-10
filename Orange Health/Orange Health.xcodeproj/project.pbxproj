@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		75E271082B78045D0039EC81 /* Orange_HealthApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E271072B78045D0039EC81 /* Orange_HealthApp.swift */; };
+		75E2710A2B78045D0039EC81 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E271092B78045D0039EC81 /* ContentView.swift */; };
+		75E2710C2B78045F0039EC81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75E2710B2B78045F0039EC81 /* Assets.xcassets */; };
+		75E2710F2B78045F0039EC81 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75E2710E2B78045F0039EC81 /* Preview Assets.xcassets */; };
+		75E271192B78045F0039EC81 /* Orange_HealthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E271182B78045F0039EC81 /* Orange_HealthTests.swift */; };
+		75E271232B78045F0039EC81 /* Orange_HealthUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E271222B78045F0039EC81 /* Orange_HealthUITests.swift */; };
+		75E271252B78045F0039EC81 /* Orange_HealthUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E271242B78045F0039EC81 /* Orange_HealthUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		75E271152B78045F0039EC81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75E270FC2B78045D0039EC81 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75E271032B78045D0039EC81;
+			remoteInfo = "Orange Health";
+		};
+		75E2711F2B78045F0039EC81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75E270FC2B78045D0039EC81 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75E271032B78045D0039EC81;
+			remoteInfo = "Orange Health";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		75E271042B78045D0039EC81 /* Orange Health.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Orange Health.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		75E271072B78045D0039EC81 /* Orange_HealthApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Orange_HealthApp.swift; sourceTree = "<group>"; };
+		75E271092B78045D0039EC81 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		75E2710B2B78045F0039EC81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		75E2710E2B78045F0039EC81 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		75E271142B78045F0039EC81 /* Orange HealthTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Orange HealthTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		75E271182B78045F0039EC81 /* Orange_HealthTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Orange_HealthTests.swift; sourceTree = "<group>"; };
+		75E2711E2B78045F0039EC81 /* Orange HealthUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Orange HealthUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		75E271222B78045F0039EC81 /* Orange_HealthUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Orange_HealthUITests.swift; sourceTree = "<group>"; };
+		75E271242B78045F0039EC81 /* Orange_HealthUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Orange_HealthUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75E271012B78045D0039EC81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75E271112B78045F0039EC81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75E2711B2B78045F0039EC81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		75E270FB2B78045D0039EC81 = {
+			isa = PBXGroup;
+			children = (
+				75E271062B78045D0039EC81 /* Orange Health */,
+				75E271172B78045F0039EC81 /* Orange HealthTests */,
+				75E271212B78045F0039EC81 /* Orange HealthUITests */,
+				75E271052B78045D0039EC81 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		75E271052B78045D0039EC81 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75E271042B78045D0039EC81 /* Orange Health.app */,
+				75E271142B78045F0039EC81 /* Orange HealthTests.xctest */,
+				75E2711E2B78045F0039EC81 /* Orange HealthUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75E271062B78045D0039EC81 /* Orange Health */ = {
+			isa = PBXGroup;
+			children = (
+				75E271072B78045D0039EC81 /* Orange_HealthApp.swift */,
+				75E271092B78045D0039EC81 /* ContentView.swift */,
+				75E2710B2B78045F0039EC81 /* Assets.xcassets */,
+				75E2710D2B78045F0039EC81 /* Preview Content */,
+			);
+			path = "Orange Health";
+			sourceTree = "<group>";
+		};
+		75E2710D2B78045F0039EC81 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				75E2710E2B78045F0039EC81 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		75E271172B78045F0039EC81 /* Orange HealthTests */ = {
+			isa = PBXGroup;
+			children = (
+				75E271182B78045F0039EC81 /* Orange_HealthTests.swift */,
+			);
+			path = "Orange HealthTests";
+			sourceTree = "<group>";
+		};
+		75E271212B78045F0039EC81 /* Orange HealthUITests */ = {
+			isa = PBXGroup;
+			children = (
+				75E271222B78045F0039EC81 /* Orange_HealthUITests.swift */,
+				75E271242B78045F0039EC81 /* Orange_HealthUITestsLaunchTests.swift */,
+			);
+			path = "Orange HealthUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		75E271032B78045D0039EC81 /* Orange Health */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75E271282B78045F0039EC81 /* Build configuration list for PBXNativeTarget "Orange Health" */;
+			buildPhases = (
+				75E271002B78045D0039EC81 /* Sources */,
+				75E271012B78045D0039EC81 /* Frameworks */,
+				75E271022B78045D0039EC81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Orange Health";
+			productName = "Orange Health";
+			productReference = 75E271042B78045D0039EC81 /* Orange Health.app */;
+			productType = "com.apple.product-type.application";
+		};
+		75E271132B78045F0039EC81 /* Orange HealthTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75E2712B2B78045F0039EC81 /* Build configuration list for PBXNativeTarget "Orange HealthTests" */;
+			buildPhases = (
+				75E271102B78045F0039EC81 /* Sources */,
+				75E271112B78045F0039EC81 /* Frameworks */,
+				75E271122B78045F0039EC81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75E271162B78045F0039EC81 /* PBXTargetDependency */,
+			);
+			name = "Orange HealthTests";
+			productName = "Orange HealthTests";
+			productReference = 75E271142B78045F0039EC81 /* Orange HealthTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		75E2711D2B78045F0039EC81 /* Orange HealthUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75E2712E2B78045F0039EC81 /* Build configuration list for PBXNativeTarget "Orange HealthUITests" */;
+			buildPhases = (
+				75E2711A2B78045F0039EC81 /* Sources */,
+				75E2711B2B78045F0039EC81 /* Frameworks */,
+				75E2711C2B78045F0039EC81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75E271202B78045F0039EC81 /* PBXTargetDependency */,
+			);
+			name = "Orange HealthUITests";
+			productName = "Orange HealthUITests";
+			productReference = 75E2711E2B78045F0039EC81 /* Orange HealthUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75E270FC2B78045D0039EC81 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					75E271032B78045D0039EC81 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					75E271132B78045F0039EC81 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 75E271032B78045D0039EC81;
+					};
+					75E2711D2B78045F0039EC81 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 75E271032B78045D0039EC81;
+					};
+				};
+			};
+			buildConfigurationList = 75E270FF2B78045D0039EC81 /* Build configuration list for PBXProject "Orange Health" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 75E270FB2B78045D0039EC81;
+			productRefGroup = 75E271052B78045D0039EC81 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75E271032B78045D0039EC81 /* Orange Health */,
+				75E271132B78045F0039EC81 /* Orange HealthTests */,
+				75E2711D2B78045F0039EC81 /* Orange HealthUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75E271022B78045D0039EC81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75E2710F2B78045F0039EC81 /* Preview Assets.xcassets in Resources */,
+				75E2710C2B78045F0039EC81 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75E271122B78045F0039EC81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75E2711C2B78045F0039EC81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75E271002B78045D0039EC81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75E2710A2B78045D0039EC81 /* ContentView.swift in Sources */,
+				75E271082B78045D0039EC81 /* Orange_HealthApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75E271102B78045F0039EC81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75E271192B78045F0039EC81 /* Orange_HealthTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75E2711A2B78045F0039EC81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75E271252B78045F0039EC81 /* Orange_HealthUITestsLaunchTests.swift in Sources */,
+				75E271232B78045F0039EC81 /* Orange_HealthUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		75E271162B78045F0039EC81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75E271032B78045D0039EC81 /* Orange Health */;
+			targetProxy = 75E271152B78045F0039EC81 /* PBXContainerItemProxy */;
+		};
+		75E271202B78045F0039EC81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75E271032B78045D0039EC81 /* Orange Health */;
+			targetProxy = 75E2711F2B78045F0039EC81 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		75E271262B78045F0039EC81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		75E271272B78045F0039EC81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		75E271292B78045F0039EC81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Orange Health/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.orangepotato.Orange-Health";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		75E2712A2B78045F0039EC81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Orange Health/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.orangepotato.Orange-Health";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		75E2712C2B78045F0039EC81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.orangepotato.Orange-HealthTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Orange Health.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Orange Health";
+			};
+			name = Debug;
+		};
+		75E2712D2B78045F0039EC81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.orangepotato.Orange-HealthTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Orange Health.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Orange Health";
+			};
+			name = Release;
+		};
+		75E2712F2B78045F0039EC81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.orangepotato.Orange-HealthUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Orange Health";
+			};
+			name = Debug;
+		};
+		75E271302B78045F0039EC81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.orangepotato.Orange-HealthUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Orange Health";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75E270FF2B78045D0039EC81 /* Build configuration list for PBXProject "Orange Health" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75E271262B78045F0039EC81 /* Debug */,
+				75E271272B78045F0039EC81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75E271282B78045F0039EC81 /* Build configuration list for PBXNativeTarget "Orange Health" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75E271292B78045F0039EC81 /* Debug */,
+				75E2712A2B78045F0039EC81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75E2712B2B78045F0039EC81 /* Build configuration list for PBXNativeTarget "Orange HealthTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75E2712C2B78045F0039EC81 /* Debug */,
+				75E2712D2B78045F0039EC81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75E2712E2B78045F0039EC81 /* Build configuration list for PBXNativeTarget "Orange HealthUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75E2712F2B78045F0039EC81 /* Debug */,
+				75E271302B78045F0039EC81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 75E270FC2B78045D0039EC81 /* Project object */;
+}
